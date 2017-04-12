@@ -1,0 +1,52 @@
+body * {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+body{
+  background-color: rgb(43, 43, 43);
+  padding: 0px;
+  margin: 0px;
+}
+
+.hardGrey{
+  background-color: rgb(98, 98, 98);
+}
+
+header, article {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header{
+  height: 40px;
+}
+
+div{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+section, aside{
+  margin: 0px 10px 0px 10px;
+}
+
+section{
+  padding: 10px 0px 0px 10px;
+  flex: 1;
+}
+
+article{
+  background-color: rgb(185, 185, 185);
+  margin-left: 0px;
+  height: 50px;
+}
+
+aside{
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+}
